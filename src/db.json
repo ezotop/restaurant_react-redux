@@ -1,0 +1,66 @@
+{
+  "menu": [
+    {
+      "title": "Cesar salad",
+      "price": 12,
+      "url": "https://static.1000.menu/img/content/21458/-salat-cezar-s-kr-salat-cezar-s-krevetkami-s-maionezom_1501173720_1_max.jpg",
+      "category": "salads",
+      "id": 1,
+      "descr": "A Caesar salad (also spelled Cesar and Cesare) is a green salad of romaine lettuce and croutons dressed with lemon juice (or lime juice), olive oil, egg, Worcestershire sauce, anchovies, garlic, Dijon mustard, Parmesan cheese, and black pepper. The salad's creation is generally attributed to restaurateur Caesar Cardini, an Italian immigrant who operated restaurants in Mexico and the United States. Cardini was living in San Diego but he was also working in Tijuana where he avoided the restrictions of Prohibition.[3] His daughter Rosa recounted that her father invented the salad at his restaurant Caesar's (at the Hotel Caesar) when a Fourth of July rush in 1924 depleted the kitchen's supplies. Cardini made do with what he had, adding the dramatic flair of the table-side tossing 'by the chef'. A number of Cardini's staff have said that they invented the dish"
+    },
+    {
+      "title": "Pizza Margherita",
+      "price": 10,
+      "url": "https://www.academiabarilla.it/wp-content/uploads/2017/07/496-pizza-margherita.jpg",
+      "category": "pizza",
+      "id": 2,
+      "descr": "Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.), which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza is sometimes called a pizzetta. A person who makes pizza is known as a pizzaiolo. In Italy, pizza served in formal settings, such as at a restaurant, is presented unsliced, and is eaten with the use of a knife and fork. In casual settings, however, it is cut into wedges to be eaten while held in the hand."
+    },
+    {
+      "title": "Pizza Napoletana",
+      "price": 13,
+      "url": "https://www.pizzanapoletana.org/struttura/pagine_bicolor/mobile/decalogo_avpn_1.jpg",
+      "category": "pizza",
+      "id": 3,
+      "descr": "Neapolitan pizza (Italian: pizza napoletana) also known as Naples-style pizza, is a style of pizza made with tomatoes and mozzarella cheese. It must be made with either San Marzano tomatoes or Pomodorino del Piennolo del Vesuvio, which grow on the volcanic plains to the south of Mount Vesuvius, and Mozzarella di Bufala Campana, a protected designation of origin cheese made with the milk from water buffalo raised in the marshlands of Campania and Lazio in a semi-wild state, or 'Fior di Latte di Agerola', a cow milk mozzarella made exclusively in the Agerola comune. Neapolitan pizza is a Traditional Speciality Guaranteed (TSG) product in Europe, and the art of its making is included on UNESCO's list of intangible cultural heritage. This style of pizza gave rise to the New York-style pizza that was first made by Italian immigrants to the United States in the early 20th century."
+    },
+    {
+      "title": "Greek salad",
+      "price": 8,
+      "url": "https://assets.epicurious.com/photos/576454fb42e4a5ed66d1df6b/master/pass/greek-salad.jpg",
+      "category": "salads",
+      "id": 4,
+      "descr": "Greek salad or horiatiki salad (Greek: χωριάτικη σαλάτα[a] or θερινή σαλάτα[b]) is a popular salad in Greek cuisine generally made with pieces of tomatoes, cucumbers, onion, feta cheese (usually served as a slice on top of the other ingredients), and olives (typically Kalamata olives) and dressed with salt, pepper, Greek oregano, and olive oil. Common additions include green bell pepper slices or caper berries (especially on the Dodecanese islands). Greek salad is often imagined as a farmer's breakfast or lunch, as its ingredients resemble those that a Greek farmer might have on hand."
+    },
+    {
+      "title": "Cowboy Steak",
+      "price": 25,
+      "url": "https://i.cbc.ca/1.4491288.1516208229!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/cowboysteak.jpg",
+      "category": "meat",
+      "id": 5,
+      "descr": "A cowboy steak is a beef steak sliced from the rib primal of a beef animal, with rib bone attached. In the United States, the term rib eye steak is used for a rib steak with the bone removed; however, in some areas, and outside the U.S., the terms are often used interchangeably. The 'rib eye' or 'ribeye' was originally, the central portion of the rib steak, without the bone, resembling an eye. It is considered a more flavorful cut than other steaks, such as the fillet, due to the muscle being exercised by the animal during its life. It's the marbling of fat that makes this suitable for slow roasting or grilling cooked to different degrees of doneness. Marbling also increases tenderness, which plays a key role in consumers' rib steak purchase choices."
+    }
+  ],
+  "orders": [
+    {
+      "order": [
+        {
+          "title": "Pizza Napoletana",
+          "dishId": 3,
+          "price": 13,
+          "qty": 2,
+          "totalItemPrice": 26
+        },
+        {
+          "title": "Greek salad",
+          "dishId": 4,
+          "price": 8,
+          "qty": 3,
+          "totalItemPrice": 24
+        }
+      ],
+      "totalOrderPrice": 50,
+      "id": 1
+    }
+  ]
+}

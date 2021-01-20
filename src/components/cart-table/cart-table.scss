@@ -1,0 +1,121 @@
+.cart {
+    padding-top: 120px;
+    padding-bottom: 50px;
+    min-height: 100vh;
+    &__title {
+        font-size: 36px;
+        color: #fff;
+        text-align: center;
+        font-weight: 300;
+    }
+    &__list {
+        width: 60%;
+        margin: 0 auto;
+    }
+    &__item {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        padding-right: 15px;
+        border: 1px solid rgba(256,256,256, .2);
+        background-color: rgba(0,0,0,.7);
+        box-shadow: 0 0 20px rgba(256,256,256, .1);
+        &-title, &-price  {
+            width: 250px;
+            text-align: center;
+            color: #fff;
+            font-size: 24px;
+        }
+        &-price {
+            width: 60px;
+            margin-left: 10px;
+        }
+        &-img {
+            height: 125px;
+            width: 250px;
+            object-fit: cover;
+        }
+        &-qty {
+            display: block;
+            width: 30px;
+            height: 24px;
+            padding: 0 5px;
+            border: none;
+            border-radius: 8px;
+            outline: none;
+            color: #000000;
+            text-align: center;
+        }
+    }
+    &__close {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        top: -10px;
+        right: -10px;
+        color: #fff;
+        font-size: 20px;
+        line-height: 22px;
+        border-radius: 100%;
+        border: 1px solid #fff;
+        cursor: pointer;
+    }
+    &__order-btn {
+        display: block;
+        margin: 40px 0 0 auto;
+        width: 150px;
+        height: 40px;
+        border: none;
+        background-color: #29a745;
+        border-radius: 4px;
+        outline: none;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+
+.chevron {
+    cursor: pointer;
+    height: 46px;
+    position: relative;
+    &_down, &_up {
+        margin: 5px auto;
+        padding: 15px 0;
+        height: 8px;
+        width: 22px;
+        &:before{
+            position: absolute;
+            top: 50%;
+            left: 0;
+            content: "";
+            display: block;
+            width: 50%;
+            height: 4px;
+            background-color: #fff;
+            transform: skew(30deg) rotate(30deg) translateY(-50%);
+        }
+        &:after {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            content: "";
+            display: block;
+            width: 50%;
+            height: 4px;
+            background-color: #fff;
+            transform: skew(-30deg) rotate(-30deg) translateY(-50%);
+        }
+    }
+    &_up {
+        &:before{
+            transform: skew(-30deg) rotate(-30deg) translateY(-50%);
+        }
+        &:after {
+            transform: skew(30deg) rotate(30deg) translateY(-50%);
+        }
+    }
+}
